@@ -13,6 +13,7 @@ steps
 echo 'Building is in Progress'
 sh 'ant -f build.xml -v'
 echo 'Build Completed Successfully'  
+echo 'Lets see what happens now in Post directive'  
 }
 }
 }
