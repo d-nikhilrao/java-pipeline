@@ -16,4 +16,12 @@ echo 'Build Completed Successfully'
 }
 }
 }
+  post
+  {
+    always
+    {
+      archive 'dist/*.jar'
 }
+  }
+}
+  
